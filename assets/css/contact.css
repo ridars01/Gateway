@@ -1,0 +1,67 @@
+ 
+/*Hero image*/
+  .hero-image {
+  position:relative;
+  width:100%;
+  height:70vh;
+  overflow:hidden;
+  background:url("http://suitcasestories.com/wp-content/uploads/2013/02/VANCOUVER.jpg") no-repeat center;
+  background-size:cover;
+  }
+
+   
+   /*The border */
+  .border{
+        width:100px;
+        height:10px;
+        background:#34495e;
+        margin:40px auto; 
+      }
+      /*General Sizing for all text boxes*/
+      .contact-form{
+        max-width:600px;
+        margin:auto;
+        padding: 0 10px;
+        overflow:hidden;
+        
+      }
+      /*This is the style for the boxes*/
+      .contact-form-text{
+        display:block;
+        width:100%;
+        box-sizing:border-box;
+        margin:16px 0;
+        border:0;
+        background:#ddd;
+        padding:20px 40px;
+        outline:none;
+        color:black;
+      }
+      /*This is applied when text box is hoveverd upon*/
+      .contact-form-text:hover/*try focus*/{
+        box-shadow:0 0 10px 4px #34495e;
+      }
+      /*This is for message box*/
+      textarea.contact-form-text{
+        resize:none;/*adds scroll bar to side for more text */
+        height:120px;}
+      /*Send Button*/
+      .contact-form-btn{
+        float:right;
+        border:0;
+        background-color:#34495e;
+        color:#fff;
+        padding:12px 50px;
+        border-radius:20px;
+      }
+label{
+      color:#007bb5;
+      font-weight:25px;
+}
+/*icon-label{
+  display:inline-block;
+}*/
+         
+         
+ 
+   
